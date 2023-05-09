@@ -1,0 +1,4 @@
+scrape_configs:
+  - job_name: 'orbi-scrapping'
+    static_configs:
+    - targets: ['orbi:9000']
